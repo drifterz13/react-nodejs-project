@@ -3,7 +3,7 @@ import { shallow } from 'enzyme'
 import Aside from '../../Component/Preference/Aside'
 
 describe('<Aside />', () => {
-  let wrapper;
+  let wrapper
   beforeEach(() => {
     wrapper = shallow(<Aside />)
   })

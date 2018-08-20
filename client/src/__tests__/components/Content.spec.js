@@ -3,7 +3,7 @@ import { shallow } from 'enzyme'
 import Content from '../../Component/Preference/Content'
 
 describe('<Content />', () => {
-  let wrapper;
+  let wrapper
   beforeEach(() => {
     wrapper = shallow(<Content />)
   })

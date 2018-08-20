@@ -3,7 +3,7 @@ import { shallow } from 'enzyme'
 import Navigation from '../../Component/Header/Navigation'
 
 describe('<Navigation />', () => {
-  let wrapper;
+  let wrapper
   beforeEach(() => {
     wrapper = shallow(<Navigation />)
   })

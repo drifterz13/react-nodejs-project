@@ -3,7 +3,7 @@ import { shallow } from 'enzyme'
 import Localize from '../../Component/Preference/Localize'
 
 describe('<Aisde />', () => {
-  let wrapper;
+  let wrapper
   beforeEach(() => {
     wrapper = shallow(<Localize />)
   })

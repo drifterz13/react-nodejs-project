@@ -5,7 +5,7 @@ import configureStore from 'redux-mock-store'
 import LoginPage from '../../Component/Auth/LoginForm'
 
 describe('<LoginPage />', () => {
-  let wrapper;
+  let wrapper
   beforeEach(() => {
     const mockStore = configureStore()
     const store = mockStore()

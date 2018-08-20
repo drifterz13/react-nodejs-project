@@ -24,7 +24,7 @@ describe('Database connection', () => {
         email: 'test@test.com',
         password: 'test'
       })
-      testUser.save(done);
+      testUser.save(done)
     })
 
     it('should not save incorrect format to database', (done) => {
@@ -89,8 +89,8 @@ describe('Database connection', () => {
           res.should.have.status(404)
           res.body.should.be.a('object')
           res.body.should.have.property('error')
-          done();
-        });
+          done()
+        })
     })
 
     it('it should signup user', (done) => {
@@ -111,8 +111,8 @@ describe('Database connection', () => {
           res.body.should.have.property('token')
           res.body.username.should.equal('example')
           res.body.email.should.equal('example@example.com')
-          done();
-        });
+          done()
+        })
     })
   })
 

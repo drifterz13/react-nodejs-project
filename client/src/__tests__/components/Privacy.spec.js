@@ -3,7 +3,7 @@ import { shallow } from 'enzyme'
 import Privacy from '../../Component/Preference/Privacy'
 
 describe('<Privacy />', () => {
-  let wrapper;
+  let wrapper
   beforeEach(() => {
     wrapper = shallow(<Privacy />)
   })
