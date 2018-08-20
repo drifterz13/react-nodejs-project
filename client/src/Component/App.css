@@ -1,0 +1,16 @@
+html {
+  background-color: #efefef;
+}
+
+.main-app {
+  padding-top: 5rem;
+  height: 100vh;
+  max-height: 100%;
+  background-color: #efefef;
+}
+
+.main-app > .ui.container {
+  display: flex;
+  padding-left: 7rem;
+  padding-right: 10rem;
+}

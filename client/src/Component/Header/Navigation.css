@@ -1,0 +1,12 @@
+div.item > i {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.item > i, p {
+  color: #777;
+}
+
+.ui .header > h2 {
+  color: #555;
+}

@@ -1,0 +1,62 @@
+article {
+  display: flex;
+  flex-basis: 70%;
+  margin-left: 15px;
+  background-color: #fff;
+}
+
+article > .ui.vertical.menu {
+  height: 0 !important;
+  width: 100% !important;
+  border: none !important;
+}
+
+.ui.vertical.menu > .item {
+  background-color: #fff !important;
+  padding-top: 1.2rem;
+}
+
+h4 {
+  font-size: 17px;
+}
+
+.item-wrap {
+  display: flex;
+}
+
+.item-name {
+  flex-basis: 30%;
+}
+
+.item-option {
+  flex-basis: 70%;
+}
+
+.label-title {
+  font-size: 13px !important;
+  margin-top: 5px !important;
+}
+
+.ui.form select {
+  width: 73% !important;
+}
+
+.main-line {
+  border: 0.5px solid #efefef;
+}
+
+.helper-text {
+  font-size: 12px;
+  margin: 0 0 1rem 0;
+}
+
+.save-btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Privacy */
+
+.ui.form .inline.fields {
+  flex-wrap: wrap !important;
+}
