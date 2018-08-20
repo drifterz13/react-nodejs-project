@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User login action Dispatches the correct action and payload 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "email": "test@test.com",
+      "password": "test",
+      "username": "test",
+    },
+    "type": "LOGGED_IN",
+  },
+]
+`;

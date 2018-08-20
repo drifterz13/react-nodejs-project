@@ -1,14 +1,14 @@
 import axios from 'axios'
 import { LOGGED_IN, SET_PREF } from '../reducers/user'
 
-const loggedIn = user => {
+export const loggedIn = user => {
   return {
     type: LOGGED_IN,
     payload: user
   }
 }
 
-const settingPref = data => {
+export const settingPref = data => {
   return {
     type: SET_PREF,
     payload: data

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User reducer DEFAULT must return initial state 1`] = `
+Object {
+  "authenticated": false,
+  "info": Object {},
+}
+`;
+
+exports[`User reducer LOGGED_IN return the correct state 1`] = `
+Object {
+  "authenticated": true,
+  "info": Object {
+    "email": "test@test.com",
+    "password": "test",
+    "username": "test",
+  },
+}
+`;
+
+exports[`User reducer SET_PREF return the update preferences 1`] = `
+Object {
+  "authenticated": false,
+  "info": Object {
+    "preferences": Object {
+      "categoryType": "enable",
+      "currency": "USD",
+      "language": "EN",
+      "messageType": "follow",
+      "profileType": "all",
+      "timezone": "-12.0",
+    },
+  },
+}
+`;
