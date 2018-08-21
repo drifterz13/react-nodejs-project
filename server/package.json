@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "keywords": [],

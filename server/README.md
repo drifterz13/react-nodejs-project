@@ -4,12 +4,12 @@
 
 If you already clone.
 ```
-cd server => yarn install => nodemon 
+cd server => yarn install => yarn start || nodemon
 ``` 
 
 ### Test
 ```
-mocha
+mocha || yarn test
 ```
 
 ### Tools
